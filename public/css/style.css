@@ -1,0 +1,41 @@
+/* Estilos para el encabezado con fondo degradado */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #3a3a3a; /* Fondo degradado */
+    color: #fff; /* Color del texto */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+}
+
+.logo img {
+    max-width: 100px; /* Tamaño máximo del logo */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s; /* Transición suave de color al pasar el mouse */
+}
+
+nav a:hover {
+    color: #6499E9; /* Color de resaltado al pasar el mouse */
+}
