@@ -39,3 +39,23 @@ nav a {
 nav a:hover {
     color: #6499E9; /* Color de resaltado al pasar el mouse */
 }
+
+/* Estilos para el slider de imágenes */
+
+.slider {
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px; /* Ancho máximo del slider */
+    margin: 0 auto; /* Centra el slider horizontalmente */
+    position: relative;
+}
+
+.slide {
+    float: left;
+    width: 100%;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
