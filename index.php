@@ -22,7 +22,7 @@
                 <li><a href="#">Suéteres</a></li>
                 <li><a href="#">Ofertas</a></li>
                 <li><a href="#">Contacto</a></li>
-                <li><a href="panel.php">Iniciar sesion</a></li>
+                <li><a href="./login/index.php">Iniciar sesion</a></li>
                 
             </ul>
         </nav>
